@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Navbar from "./Navbar";
+
 function Loans({ addData }) {
     const [entries, setEntries] = useState({
     date: "",

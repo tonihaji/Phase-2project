@@ -182,7 +182,7 @@
       "last_name": "Philpault",
       "ip_address": "251.106.148.238",
       "vehicle_model": "Acura",
-      "rider_avatar": "https://robohash.org/doloreutab.png?size=50x50&set=set1"
+      "rider_avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEijx0M-5gHmHI6XPJd7zoYGoHrdwqA1J7qTyG_6vlMA&s"
     },
     {
       "id": 2,
@@ -190,7 +190,7 @@
       "last_name": "Dunan",
       "ip_address": "96.6.196.69",
       "vehicle_model": "Buick",
-      "rider_avatar": "https://robohash.org/quipraesentiumsint.png?size=50x50&set=set1"
+      "rider_avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkPvW6SHxfmMHwaL4-z9L2tOI0tP3qKLjh0tON9fRxZA&s"
     },
     {
       "id": 3,
@@ -198,7 +198,7 @@
       "last_name": "Luetkemeyers",
       "ip_address": "146.121.24.181",
       "vehicle_model": "Honda",
-      "rider_avatar": "https://robohash.org/praesentiumetpossimus.png?size=50x50&set=set1"
+      "rider_avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSv0oOPjm3Ff-EHEB_2oyTMoZlvL8OqWSc74WXQqQIrcw&s"
     },
     {
       "id": 4,
@@ -206,7 +206,7 @@
       "last_name": "Ovitts",
       "ip_address": "120.135.111.121",
       "vehicle_model": "Toyota",
-      "rider_avatar": "https://robohash.org/quirerumlaudantium.png?size=50x50&set=set1"
+      "rider_avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxWOwj4FJJAq7RCzbg2qdrIDGnG6wULPiUTEbRrkB4ANizoSYZ8QeEJmpltdn73L78dgo&usqp=CAU"
     },
     {
       "id": 5,
@@ -214,7 +214,7 @@
       "last_name": "Castillon",
       "ip_address": "151.62.37.128",
       "vehicle_model": "Ford",
-      "rider_avatar": "https://robohash.org/consectetursedautem.png?size=50x50&set=set1"
+      "rider_avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRbiMjUoOxJCAMB9poSO2wLg34m7OxmyaT-A&usqp=CAU"
     }
   ],
   "cart": [
@@ -265,6 +265,20 @@
       "name": "product 1",
       "price": "700000/ksks",
       "image_url": "./images/t6.jpeg",
+      "status_pay": "available on pay"
+    },
+    {
+      "id": 10,
+      "name": "product 1",
+      "price": "499900/ksks",
+      "image_url": "./images/t5.jpeg",
+      "status_pay": "available on pay"
+    },
+    {
+      "id": 9,
+      "name": "product 1",
+      "price": "370000/ksks",
+      "image_url": "./images/t3.jpeg",
       "status_pay": "available on pay"
     }
   ]
