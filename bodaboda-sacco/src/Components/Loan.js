@@ -54,7 +54,7 @@ function Loans({ addData }) {
             <div className="col-3">
             <label>Last Name:</label>
                 <input onChange={handleChange}
-                      name="name" className="form-control form-control-sm" type="text" placeholder="lastname" aria-label=".form-control-sm example"id="lastname"/>
+                      name="name" className="form-control form-control-sm" type="text" placeholder="Lastname" aria-label=".form-control-sm example"id="lastname"/>
             </div>
             <br/>
             <div className="col-3">

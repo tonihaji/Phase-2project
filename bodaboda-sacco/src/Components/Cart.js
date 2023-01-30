@@ -44,8 +44,9 @@ return (
 <div> 
 <Navbar cart={cart} />
 
-<div className="container text-center mt-5 pt-5">
+<div className="container text-center mt-5 pt-5 mb-5 pb-5">
 <div className="row">
+    <h3 className='fixed'>selected items in cart</h3>
 {cart.map((item, index) => (
 <div className="col mx-4">
 <div className="card" style={{ width: "18rem", marginBottom: "10px" }}>

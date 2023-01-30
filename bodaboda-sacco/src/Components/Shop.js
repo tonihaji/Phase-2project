@@ -42,6 +42,7 @@ function Shop() {
     <div>
       <Navbar cart={cart} />
       <div className="container text-center mt-5">
+        <h1>view available items in store</h1>
         <div className="row">
           {products.map((boda) => (
             <div className="col mx-4">
