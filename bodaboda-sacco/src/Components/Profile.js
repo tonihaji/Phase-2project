@@ -4,24 +4,33 @@ const Profile = (props) => {
   const { name, age, memberId, image, location, email } = props;
 
   return (
-    <form className="row g-3">
-    <div className="col-md-6">
+    
+    <form className="row g-3 mt-5">
+      <div className="col-md-4">
+      <label for="inputName4" className="form-label">Firsrname</label>
+      <input type="name" className="form-control" id="inputEmail4"/>
+    </div>
+    <div className="col-md-4">
+      <label for="inputName4" className="form-label">Lastname</label>
+      <input type="name" className="form-control" id="inputPassword4"/>
+    </div>
+    <div className="col-md-4">
       <label for="inputEmail4" className="form-label">Email</label>
       <input type="email" className="form-control" id="inputEmail4"/>
     </div>
-    <div className="col-md-6">
+    <div className="col-md-4">
       <label for="inputPassword4" className="form-label">Password</label>
       <input type="password" className="form-control" id="inputPassword4"/>
     </div>
-    <div className="col-12">
+    <div className="col-4">
       <label for="inputAddress" className="form-label">Address</label>
       <input type="text" className="form-control" id="inputAddress" placeholder="1234 Main St"/>
     </div>
-    <div className="col-12">
+    <div className="col-6">
       <label for="inputAddress2" className="form-label">Address 2</label>
       <input type="text" className="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor"/>
     </div>
-    <div className="col-md-6">
+    <div className="col-md-4">
       <label for="inputCity" className="form-label">City</label>
       <input type="text" className="form-control" id="inputCity"/>
     </div>
