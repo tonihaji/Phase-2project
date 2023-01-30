@@ -12,18 +12,19 @@ fetch("http://localhost:3000/shop")
 .then((data)=>setProducts(data))
 },[]);
 
-const handleAddToCart = (product) => {
-const existingProduct = cart.find((p) => p.id === product.id);
-if (existingProduct) {
-setCart(
-cart.map((p) =>
-p.id === product.id ? { ...p, amount: p.amount + 1 } : p
-)
-);
-} else {
-setCart([...cart, { ...product, amount: 1 }]);
-}
-};
+const handleAddToCart = (boda) => {
+    const newCart = [...cart, boda];
+    setCart(newCart);
+    fetch("http://localhost:3000/cart", {
+    method: "POST",
+    headers: {
+    "Content-type": "application/json",
+    },
+    body: JSON.stringify(boda),
+    })
+    .then((r) => r.json())
+    .then((data) => console.log(data));
+    };
 
 const handleRemoveFromCart = (product) => {
 const existingProduct = cart.find((p) => p.id === product.id);

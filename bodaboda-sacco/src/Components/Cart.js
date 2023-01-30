@@ -1,53 +1,80 @@
 import React,{useState} from 'react';
 import { useEffect } from 'react';
+import Navbar from './Navbar';
 
-const Cart = ({cart, setCart, handleChange}) => {
-    const [price, setPrice] = useState(0);
+function Cart() {
+    const [cart, setCart] = useState([]);
+    const [total, setTotal] = useState(0);
 
-    const handlePrice = ()=>{
-        let ans = 0;
-        cart.map((item)=>(
-            ans += item.amount * item.price
-        ))
-        setPrice(ans);
-    }
-
-    const handleRemove = (id) =>{
-        const arr = cart.filter((item)=>item.id !== id);
-        setCart(arr);
-        // handlePrice();
-    }
-
-    useEffect(()=>{
-        handlePrice();
-    })
-
-  return (
-    <article>
-        {
-            cart?.map((item)=>(
-                <div className="cart_box" key={item.id}>
-                    <div className="cart_img">
-                        <img src={item.img} />
-                        <p>{item.title}</p>
-                    </div>
-                    <div>
-                        <button onClick={()=>handleChange(item, +1)}> + </button>
-                        <button>{item.amount}</button>
-                        <button onClick={()=>handleChange(item, -1)}> - </button>
-                    </div>
-                    <div>
-                        <span>{item.price}</span>
-                        <button onClick={()=>handleRemove(item.id)} >Remove</button>
-                    </div>
+    useEffect(() => {
+        fetch('http://localhost:3000/cart')
+        .then(res => res.json())
+        .then(data => {
+            setCart(data);
+            calculateTotal(data);
+        }
+        )
+    }, [])
+    
+    const handleRemove = (index) => {
+        let newCart = [...cart];
+        newCart.splice(index, 1);
+        setCart(newCart);
+        calculateTotal(newCart);
+    };
+    
+    const handleIncrease = (index) => {
+        let newCart = [...cart];
+        newCart[index].quantity++;
+        setCart(newCart);
+        calculateTotal(newCart);
+    };
+    
+    const handleDecrease = (index) => {
+        let newCart = [...cart];
+        if (newCart[index].quantity > 1) {
+            newCart[index].quantity--;
+        }
+        setCart(newCart);
+        calculateTotal(newCart);
+    };
+    
+    const calculateTotal = (data) => {
+        let newTotal = 0;
+        data.forEach(item => {
+            newTotal += item.price * item.quantity;
+        });
+        setTotal(newTotal);
+    };
+    
+    return (
+        <div>
+            <Navbar cart={cart} />
+            <div className="container text-center mt-5 pt-5">
+                <div className="row ">
+                    {cart.map((item, index) => (
+                        <div className="col mx-4">
+                            <div className="card" style={{ width: "18rem", marginBottom: "10px" }}>
+                                <div className="card-body">
+                                    <img src={item.image_url} className="card-img-top" alt="..." />
+                                    <h5 className="card-title">{item.name}</h5>
+                                    <p className="card-text">{item.price} x {item.quantity} = {item.price * item.quantity}</p>
+                                    <button className="btn btn-warning" onClick={() => handleRemove(index)}>Remove</button>
+                                    <button className="btn btn-success mx-2" onClick={() => handleIncrease(index)}>+</button>
+                                    <button className="btn btn-danger" onClick={() => handleDecrease(index)}>-</button>
+                                </div>
+                            </div>
+                        </div>
+                    ))}
                 </div>
-            ))}
-        <div className='total'>
-            <span>Total Price of your Cart</span>
-            <span>Rs - {price}</span>
+                <h3 className="my-3">Total: {total}</h3>
+                <button className="btn btn-secondary">Buy</button>
+            </div>
         </div>
-    </article>
-  )
+    )
 }
 
-export default Cart
+
+   
+
+export default Cart;
