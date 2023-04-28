@@ -1,0 +1,14 @@
+
+img{
+  height: 200px;
+  /* display: none; */
+  
+}
+.overlay {
+  display: none;
+}
+body {
+  background-image: url('../public/images/f3.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}

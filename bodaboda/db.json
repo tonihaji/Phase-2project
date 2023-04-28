@@ -1,0 +1,412 @@
+{
+  "shop": [
+    {
+      "id": 1,
+      "name": "sportybike",
+      "price": 370000,
+      "image_url": "./images/baba.jpeg",
+      "status_pay": "available on pay"
+    },
+    {
+      "id": 2,
+      "name": "mortbike",
+      "price": 2006810,
+      "image_url": "./images/t7.jpeg",
+      "status_pay": "lipa mdongo"
+    },
+    {
+      "id": 3,
+      "name": "mortbike",
+      "price": 8670000,
+      "image_url": "./images/cop.jpeg",
+      "status_pay": "available for loan"
+    },
+    {
+      "id": 4,
+      "name": "mortbike",
+      "price": 7370000,
+      "image_url": "./images/syk.jpeg",
+      "status_pay": "available on pay"
+    },
+    {
+      "id": 5,
+      "name": "mortbike",
+      "price": 4470000,
+      "image_url": "./images/lvt.jpeg",
+      "status_pay": "available hire purchase"
+    },
+    {
+      "id": 6,
+      "name": "levart",
+      "price": 1900000,
+      "image_url": "./images/sms.jpeg",
+      "status_pay": "available on pay"
+    },
+    {
+      "id": 9,
+      "name": "gloves",
+      "price": 7370000,
+      "image_url": "./images/t3.jpeg",
+      "status_pay": "available on pay"
+    },
+    {
+      "id": 10,
+      "name": "jacket",
+      "price": 999098,
+      "image_url": "./images/t5.jpeg",
+      "status_pay": "available on pay"
+    },
+    {
+      "id": 11,
+      "name": "helmet",
+      "price": 80000,
+      "image_url": "./images/t6.jpeg",
+      "status_pay": "available on pay"
+    },
+    {
+      "id": 12,
+      "name": "mortbike",
+      "price": 3330000,
+      "image_url": "./images/t7.jpeg",
+      "status_pay": "available on pay"
+    },
+    {
+      "id": 13,
+      "name": "mortbike",
+      "price": 6456000,
+      "image_url": "./images/syk.jpeg",
+      "status_pay": "available on pay"
+    },
+    {
+      "id": 14,
+      "name": "mortbike",
+      "price": 570000,
+      "image_url": "./images/syk.jpeg",
+      "status_pay": "available on pay"
+    },
+    {
+      "id": 15,
+      "name": "ruki",
+      "price": 860000,
+      "image_url": "./images/syk.jpeg",
+      "status_pay": "available on pay"
+    },
+    {
+      "id": 16,
+      "name": "levart",
+      "price": 4909900,
+      "image_url": "./images/syk.jpeg",
+      "status_pay": "available on pay"
+    },
+    {
+      "id": 17,
+      "name": "boxer",
+      "price": 700000,
+      "image_url": "./images/syk.jpeg",
+      "status_pay": "available on pay"
+    },
+    {
+      "id": 18,
+      "name": "honder",
+      "price": 210006,
+      "image_url": "./images/syk.jpeg",
+      "status_pay": "available on pay"
+    }
+  ],
+  "register": [
+    {
+      "id": 1,
+      "firstName": "mike",
+      "lastName": "bola",
+      "passportNumber": "073333",
+      "email": "mik@gmail.com"
+    }
+  ],
+  "loan": [
+    {
+      "id": 1,
+      "date": "2022-2-09",
+      "first_name": "mike",
+      "last_name": "orwa",
+      "email": "mik@gmail.com",
+      "adress": "kakamegaa",
+      "amount": "600007"
+    },
+    {
+      "date": "2023-01-12",
+      "first_name": "",
+      "last_name": "",
+      "email": "ehjianto@gmail.com",
+      "address": "",
+      "amount": "67777",
+      "name": "Antony ",
+      "loc": "kangemi",
+      "id": 2
+    },
+    {
+      "date": "2023-01-12",
+      "first_name": "",
+      "last_name": "",
+      "email": "ehjianto@gmail.com",
+      "address": "",
+      "amount": "67777",
+      "name": "Antony ",
+      "loc": "kangemi",
+      "id": 3
+    },
+    {
+      "date": "2023-01-13",
+      "first_name": "",
+      "last_name": "",
+      "email": "ehjianto@gmail.com",
+      "address": "",
+      "amount": "55555",
+      "name": "yaaa",
+      "loc": "nairobi",
+      "id": 4
+    },
+    {
+      "date": "",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "address": "",
+      "amount": "",
+      "id": 5
+    },
+    {
+      "date": "2023-03-03",
+      "first_name": "",
+      "last_name": "",
+      "email": "awal@gmail.com",
+      "address": "",
+      "amount": "800000",
+      "name": "kerry",
+      "loc": "garisaa",
+      "id": 6
+    },
+    {
+      "date": "2023-03-03",
+      "first_name": "",
+      "last_name": "",
+      "email": "mj@gmail.com",
+      "address": "",
+      "amount": "89999999",
+      "name": "peter",
+      "loc": "garisaa",
+      "adress": "lodwa",
+      "id": 7
+    },
+    {
+      "date": "2023-03-04",
+      "first_name": "",
+      "last_name": "",
+      "email": "edy@gmail.com",
+      "address": "",
+      "amount": "79950",
+      "name": "mora",
+      "adress": "doha",
+      "id": 8
+    },
+    {
+      "date": "2023-03-04",
+      "first_name": "",
+      "last_name": "",
+      "email": "edy@gmail.com",
+      "address": "",
+      "amount": "79950",
+      "name": "mora",
+      "adress": "doha",
+      "id": 9
+    },
+    {
+      "date": "2023-03-17",
+      "first_name": "",
+      "last_name": "",
+      "email": "kly@gmail.com",
+      "address": "",
+      "amount": "79945",
+      "name": "kellyn",
+      "adress": "doha",
+      "id": 10
+    },
+    {
+      "date": "2023-03-11",
+      "first_name": "",
+      "last_name": "",
+      "email": "ehjianto@gmail.com",
+      "address": "",
+      "amount": "7777",
+      "name": "Antony ehachi",
+      "adress": "lodwa",
+      "id": 11
+    },
+    {
+      "date": "2023-03-03",
+      "name": "Antony ",
+      "email": "ehjianto@gmail.com",
+      "amount": "69000",
+      "id": 12
+    }
+  ],
+  "remit": [
+    {
+      "date": "6/8/20032",
+      "name": "Antony ",
+      "membershipNo": "09",
+      "amount": "80000",
+      "id": 1
+    },
+    {
+      "date": "5/09/2023",
+      "name": "Antony ehachi",
+      "membership_No": "10",
+      "amount": "558",
+      "id": 2
+    },
+    {
+      "date": "",
+      "name": "",
+      "membership_No": "",
+      "amount": "",
+      "id": 3
+    }
+  ],
+  "Rider": [
+    {
+      "id": 1,
+      "first_name": "Micky",
+      "last_name": "Philpault",
+      "rating": 6,
+      "booking": null,
+      "cancel_booking": null,
+      "vehicle_model": "Acura",
+      "rider_avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEijx0M-5gHmHI6XPJd7zoYGoHrdwqA1J7qTyG_6vlMA&s"
+    },
+    {
+      "id": 2,
+      "first_name": "Roland",
+      "last_name": "Dunan",
+      "rating": 4,
+      "booking": null,
+      "cancel_booking": null,
+      "vehicle_model": "Buick",
+      "rider_avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkPvW6SHxfmMHwaL4-z9L2tOI0tP3qKLjh0tON9fRxZA&s"
+    },
+    {
+      "id": 3,
+      "first_name": "Beryl",
+      "last_name": "Luetkemeyers",
+      "rating": 3,
+      "booking": null,
+      "cancel_booking": null,
+      "vehicle_model": "Honda",
+      "rider_avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSv0oOPjm3Ff-EHEB_2oyTMoZlvL8OqWSc74WXQqQIrcw&s"
+    },
+    {
+      "id": 4,
+      "first_name": "Lotta",
+      "last_name": "Ovitts",
+      "rating": 5,
+      "booking": null,
+      "cancel_booking": null,
+      "vehicle_model": "Toyota",
+      "rider_avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxWOwj4FJJAq7RCzbg2qdrIDGnG6wULPiUTEbRrkB4ANizoSYZ8QeEJmpltdn73L78dgo&usqp=CAU"
+    },
+    {
+      "id": 5,
+      "first_name": "Brendis",
+      "last_name": "Castillon",
+      "rating": 5,
+      "booking": null,
+      "cancel_booking": null,
+      "vehicle_model": "Ford",
+      "rider_avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRbiMjUoOxJCAMB9poSO2wLg34m7OxmyaT-A&usqp=CAU"
+    }
+  ],
+  "booking": [
+    
+  ],
+  "user": [
+    {
+      "name": "tonihaji",
+      "email": "ehaji@gmail.com",
+      "password": "55555",
+      "id": 1
+    },
+    {
+      "name": "tonihaji",
+      "email": "ehaji@gmail.com",
+      "password": "55555",
+      "id": 2
+    },
+    {
+      "name": "vundi",
+      "email": "vundi@gmail.com",
+      "password": "88888",
+      "id": 3
+    },
+    {
+      "name": "edward",
+      "email": "ed@gmIL.COM",
+      "password": "4444",
+      "id": 4
+    },
+    {
+      "name": "edward",
+      "email": "ed@gmIL.COM",
+      "password": "4444",
+      "id": 5
+    },
+    {
+      "name": "kelvin",
+      "email": "kl@gmail.com",
+      "password": "48888",
+      "id": 6
+    }
+  ],
+  "cart": [
+    {
+      "id": 2,
+      "name": "mortbike",
+      "price": 2006810,
+      "image_url": "./images/t7.jpeg",
+      "status_pay": "lipa mdongo"
+    },
+    {
+      "id": 1,
+      "name": "sportybike",
+      "price": 370000,
+      "image_url": "./images/baba.jpeg",
+      "status_pay": "available on pay"
+    },
+    {
+      "id": 3,
+      "name": "mortbike",
+      "price": 8670000,
+      "image_url": "./images/cop.jpeg",
+      "status_pay": "available for loan"
+    },
+    {
+      "id": 6,
+      "name": "levart",
+      "price": 1900000,
+      "image_url": "./images/sms.jpeg",
+      "status_pay": "available on pay"
+    },
+    {
+      "id": 5,
+      "name": "mortbike",
+      "price": 4470000,
+      "image_url": "./images/lvt.jpeg",
+      "status_pay": "available hire purchase"
+    },
+    {
+      "id": 4,
+      "name": "mortbike",
+      "price": 7370000,
+      "image_url": "./images/syk.jpeg",
+      "status_pay": "available on pay"
+    }
+  ]
+}
